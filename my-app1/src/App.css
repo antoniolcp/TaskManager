@@ -1,0 +1,67 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /*background-image: url('/Users/antoniolcp/Documents/Programação/VisionD/my-app1/public/images/background.png'); /* Ajuste conforme necessário */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title .red {
+  color: red;
+}
+
+.title .green {
+  color: green;
+}
+
+.loginButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.loginButton button {
+  background-color: #1d4ed8;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton button:hover {
+  background-color: #2563eb;
+}
+
+.newTaskButton {
+  margin-top: 250px;
+}
+
+.newTaskButton button {
+  background-color: #10b981;
+  color: white;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.7rem;
+}
+
+.newTaskButton button:hover {
+  background-color: #059669;
+}
